@@ -24,9 +24,8 @@ int main() {
     int num1;
     int num2;
     int result;
-    bool con = true;
 
-    while (con == true){
+    while (true){
         
         cout << "insert ur operator";
         cin >> op;
@@ -34,6 +33,7 @@ int main() {
         cin >> num1;
         cout << "gimme second number ";
         cin >> num2;
+        // continue;
         if (op == '+'){
             cout<< add(num1, num2)<<endl;
         } else if (op == '-'){
@@ -49,7 +49,7 @@ int main() {
         string response;
         cin >> response;
         if (response == "no"){
-            con = false;
+            break;
         }
     }
 }
