@@ -18,13 +18,6 @@ int divide (int num1,int num2){
 }
 void askcon (){
     cout<<"do u wanna continue"<<endl;
-}
-int main() {
-    char op;
-    int num1;
-    int num2;
-    int result;
-    bool con = true;
 
     while (con == true){
         
